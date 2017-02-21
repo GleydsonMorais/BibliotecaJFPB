@@ -1,0 +1,329 @@
+* { margin: 0; padding: 0; }
+
+body { font: 14px tahoma, arial, verdana; background: #FFFFFF; margin: 5px 0; }
+
+#content { width: 900px; margin: auto; }
+
+#head { width: 100%; height: 200px; }
+
+#content-page { width: 100%; margin-top: 5px; }
+
+	#content-page-sidebar { width: 245px; float: left; margin-right: 5px;  }
+
+		#content-page-sidebar ul li { margin: 0; padding: 0px; border-bottom: 1px solid #CCCCCC; text-align: left; list-style-type: none; }
+
+			#content-page-sidebar ul li ul { display: none; background: #585C8F; font-size: 12px; }
+
+				#content-page-sidebar ul li:hover ul { display: block; }
+
+						#content-page-sidebar ul li ul li a { background: #B8B8B8; color: #000000; }
+
+						#content-page-sidebar ul li ul li a:hover { background: #B8B8B8; color: #8A8A8A; }
+
+			#content-page-sidebar ul li a { background: #F5F5F5; color: #000000; font-weight: bold; text-decoration: none; padding: 7.5px; display: block; }
+
+			#content-page-sidebar ul li a:hover { background: #585C8F; color: #FFFFFF; }
+
+
+
+	#content-page-content { width: 650px; float: left; }
+
+#footer { width: 100%; height: 50px; float: left; background: #585C8F; margin-top: 5px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+
+	#footer p { text-align: center; margin-top: 5px; color: #FFFFFF; font-weight: bold; }
+
+	#footer h6 { text-align: center; margin-top: 5px; color: #FFFFFF; font-weight: bold; }
+
+/* Pagina INICIO */
+
+#content-page-content {}
+
+	#content-index-frase { width: 100%; float: left; background: #CCCCCC; }
+
+		#content-index-frase img { width: 250px; float: left; }
+
+		#content-index-frase-text { width: 400px; float: left; }
+
+			#content-index-frase-text p { padding-left: 80px; padding-top: 40px; }
+
+				#content-index-frase-text h5 { padding-left: 80px; padding-top: 5px; }
+
+	#content-index-objetivo { width: 100%; margin-top: 5px; float: left; background: #F5F5F5; }
+
+		#content-index-objetivo-text { width: 400px; float: left; }
+
+			#content-index-objetivo-text h4 { text-align: center; padding-top: 5px; }
+
+			#content-index-objetivo-text p { text-align: justify; padding: 20px 10px; }
+
+		#content-index-objetivo img { width: 250px; float: left; }
+
+	#content-index-missao { width: 100%; float: left; background: #CCCCCC; margin-top: 5px; }
+
+		#content-index-missao h4 { text-align:  center; margin-top: 5px; }
+
+		#content-index-missao p { text-align: center; margin: 5px; }
+
+	#content-index-regimento { width: 100%; float: left; background: #F5F5F5; margin-top: 5px; }
+
+		#content-index-regimento h4 { text-align:  center; margin-top: 5px; }
+
+		#content-index-regimento a { text-decoration: none; color: #000000; }
+
+			#content-index-regimento a:hover { text-decoration: underline; }
+
+			#content-index-regimento a p { text-align: center; margin: 5px; }		
+
+/* PARA TODAS AS PAGINAS */
+
+#content-page-content {}
+
+	#content-page-content h2 { border-bottom: 2px solid #CCCCCC; }
+
+		#subTexto { border-bottom: 2px solid #CCCCCC; text-align: center; }
+
+/* Pagina SOBRE */
+
+#content-page-content {}
+
+	#content-sobre-texto { width: 500px; float: left; }
+
+		#content-sobre-texto p { margin: 5px; text-align: justify; }
+
+	#content-sobre-imagem { width: 150px; float: left; }
+
+		#content-sobre-imagem img { width: 140px; margin: 5px; }
+
+/* Pagina CONTATO */
+
+#content-page-content {}
+
+	#content-contato-mapa { width: 100%; text-align: center; margin: 5px 0; }
+
+	#content-contato-end { width: 100%; }
+
+		#content-contato-end p { text-align: center; }
+
+/* Pagina SERVIÇOS */
+
+#content-page-content {}
+
+	#content-servico { width: 100%; margin-top: 5px; }
+
+		#content-servico-title { background: #CCCCCC; }
+
+			#content-servico-title h3 { padding: 5px; }
+
+		#content-servico-img { width: 100%; margin-top: 5px; }
+
+			#content-servico-img p { text-align: center; }
+
+				#content-servico-img p img { width: 500px; }
+
+		#content-servico-text { width: 100%; margin-top: 5px; }
+
+			#content-servico-text p { margin: 0; text-align: justify; }
+
+				#content-servico-text p a { text-decoration: none; color: #0000FF; }
+
+					#content-servico-text p a:hover { text-decoration: underline; }
+
+/* Pagina MEMÓRIA INSTITUCIONAL */
+
+#content-page-content {}
+
+	#content-memoria { width: 100%; margin-top: 5px; }
+
+		#content-memoria-title { background: #CCCCCC; }
+
+			#content-memoria-title h3 { padding: 5px; }
+
+		#content-memoria-img { width: 100%; margin-top: 5px; }
+
+			#content-memoria-img img { height: 135px; margin-right: 5px; }
+
+/* Pagina NOVAS AQUISIÇÕES 2015 */
+
+#content-page-content {}
+
+	#content-catalogo { width: 100%; margin-top: 5px; margin-bottom: 30px; }
+
+		#content-catalogo-title { background: #CCCCCC; }
+
+			#content-catalogo-title h3 { padding: 5px; }
+
+		#content-catalogo-img { width: 100%; margin-top: 5px; }
+
+			#content-catalogo-img img { height: 135px; margin-right: 5px; }
+
+/* Pagina E-BOOKS */
+
+#content-page-content {}
+
+	#content-ebooks { width: 100%; margin-top: 5px; }
+
+		#content-ebooks-title { background: #CCCCCC; }
+
+			#content-ebooks-title h3 { padding: 5px; }
+
+				#content-ebooks-title h3:hover { padding: 5px; text-decoration: underline; cursor: pointer; }
+
+		#content-ebooks-text { width: 100%; margin-top: 5px; }
+
+			#content-ebooks-text p { margin-left: 10px; margin-bottom: 10px; }
+
+				#content-ebooks-text p.tamanho-font { font-size: 17px; font-weight: bold; }
+
+				#content-ebooks-text p a { text-decoration: none; color: #000000; }
+
+					#content-ebooks-text p a:hover { text-decoration: underline; }
+
+			#content-ebooks-text img { width: 214px; }
+
+/* Pagina TRABALHOS ACADEMICOS */
+
+#content-page-content {}
+
+	#content-trabalhos { width: 100%; margin-top: 5px; }
+
+		#content-trabalhos p a { color: #000000; text-decoration: none; }
+
+			#content-trabalhos p a:hover { text-decoration: underline; }
+
+		#content-trabalhos-title { background: #CCCCCC; }
+
+			#content-trabalhos-title h4 { text-align: center; padding: 2px; }
+
+		#content-trabalhos-letras { border: 2px solid #CCCCCC; }
+
+			#content-trabalhos-letras p { text-align: center; padding: 2px; }
+
+				#content-trabalhos-letras p a { text-decoration: none; color: #000000; }
+
+					#content-trabalhos-letras p a:hover { text-decoration: underline; }
+
+		#content-trabalhos-content { width: 100%; height: 100px; }
+
+			#content-trabalhos-content p { text-align: justify; margin: 5px; }
+
+			#content-trabalhos-content a { text-decoration: none; color: #000000; margin-left: 5px; }
+
+				#content-trabalhos-content a:hover { text-decoration: underline; color: #FF0000; }
+
+			#content-trabalhos-content a img { width: 15px; }
+
+			.par { background: #CCCCCC; }
+
+/* Pagina COMO CONSULTAR */
+
+#content-page-content {}
+
+	#content-consulta { width: 100%; margin-top: 5px; }
+
+		#content-consulta-title { background: #CCCCCC; }
+
+			#content-consulta-title h3 { padding: 5px; }
+
+		#content-consulta-img { width: 100%; margin-top: 5px; }
+
+			#content-consulta-img p { text-align: center; }
+
+				#content-consulta-img p img { width: 100%; }
+
+		#content-consulta-text { width: 100%; margin-top: 5px; }
+
+			#content-consulta-text h3 { margin-left: 10px; }
+
+			#content-consulta-text h4 { margin-left: 15px; margin-top: 15px; }
+
+			#content-consulta-text p { margin-left: 5px; margin-top: 10px; text-align: justify; }
+
+				#content-consulta-text p a { text-decoration: none; color: #0000FF; }
+
+					#content-consulta-text p a:hover { text-decoration: underline; }
+
+/* Pagina AUTORES PARAIBANOS */
+
+#content-page-content {}
+
+	#content-autores { width: 100%; margin-top: 5px; }
+
+		#content-autores-title { background: #CCCCCC; }
+
+			#content-autores-title h4 { text-align: center; padding: 2px; }
+
+		#content-autores-letras { border: 2px solid #CCCCCC; }
+
+			#content-autores-letras p { text-align: center; padding: 2px; }
+
+				#content-autores-letras p a { text-decoration: none; color: #000000; }
+
+					#content-autores-letras p a:hover { text-decoration: underline; }
+
+		#content-autores-content { width: 100%; margin-top: 5px; }
+
+			#content-autores-content p { text-align: justify; margin-bottom: 15px; }
+
+/* Pagina LEGISLAÇÃO */
+
+#content-page-content {}
+
+	#content-legislacao { width: 100%; margin-top: 5px; }
+
+		#content-legislacao-title { background: #CCCCCC; }
+
+			#content-legislacao-title h3 { padding: 5px; }
+
+		#content-legislacao-text { width: 100%; margin-top: 5px; }
+
+			#content-legislacao-text p { margin: 5px; }
+
+				#content-legislacao-text p a { text-decoration: none; color: #000000; }
+
+					#content-legislacao-text p a:hover { text-decoration: underline; }
+
+		#content-legislacao table { width: 100%; margin-top: 5px; }
+
+			#content-legislacao table.borda { border-collapse: collapse; }
+
+			#content-legislacao table.borda tr td { border: 2px solid #CCCCCC; }
+
+			#content-legislacao table tr td.tb-cor { background: #F5F5F5; width: 300px; }
+
+			#content-legislacao table tr td p { padding: 5px; }
+
+				#content-legislacao table tr td p a { text-decoration: none; color: #000000; }
+
+					#content-legislacao table tr td p a:hover { text-decoration: underline; }
+
+/* Pagina PERIÓDICOS */
+
+#content-page-content {}
+
+	#content-periodicos { width: 100%; margin-top: 5px; }
+
+		#content-periodicos-title { background: #CCCCCC; }
+
+			#content-periodicos-title h3 { padding: 5px; }
+
+		#content-periodicos-img { width: 100%; margin-top: 5px; }
+
+			#content-periodicos-img img { height: 135px; margin-right: 5px; }
+
+/* pagina LINKS UTEIS */
+
+#content-page-content {}
+
+	#content-links { width: 100%; margin-top: 5px; }
+
+		#content-links-title { background: #CCCCCC; }
+
+			#content-links-title h3 { padding: 5px; }
+
+		#content-links-text { width: 100%; margin-top: 5px; }
+
+			#content-links-text p { margin: 5px; }
+
+				#content-links-text p a { text-decoration: none; color: #000000; }
+
+					#content-links-text p a:hover { text-decoration: underline; }
